@@ -3,6 +3,15 @@ body{
     background-color: #0f0f0f;
     color: #9d70cd;  
 }
+.logo{
+    height: 2em;
+}
+
+
+.navbar.bg-success {
+    background-color: rgb(195, 195, 57) !important; /* Cambiar el valor de background-color al color deseado */
+  }
+
 
 h1{
     text-align: center;
@@ -16,7 +25,7 @@ header img{
     
 }
 
-
+  
 
 article {
     font-weight: bold;
@@ -103,17 +112,6 @@ aside {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 aside img{
     height: 15em;
     margin-left: 2em;
@@ -121,7 +119,11 @@ aside img{
 
 }
 
-
+.custom-carousel {
+    width: 50%; /* Ajusta el ancho del carrusel según tus necesidades */
+    margin-left: auto;
+    margin-right: auto;
+  }
   
 
 footer{
